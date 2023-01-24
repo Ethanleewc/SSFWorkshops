@@ -39,7 +39,7 @@ public class LoveResultsService {
 
     public ResponseEntity<String> testHeader(String loveUrl, final RestTemplate restTemplate){
         final HttpHeaders headers = new HttpHeaders();
-        headers.set("X-RapidAPI-Key","017d192858msh06b0bb038e3ffccp1964e4jsn0397adec9622");
+        headers.set("X-RapidAPI-Key","enter API key here");
         headers.set("X-RapidAPI-Host", "love-calculator.p.rapidapi.com");
         final HttpEntity<String> entity = new HttpEntity<String>(headers);
 
